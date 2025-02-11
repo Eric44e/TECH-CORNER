@@ -1,0 +1,174 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8fafc;
+    color: #1e293b;
+
+}
+header{
+    background: #1e40af;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+
+}
+nav{
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    background: #1e40af;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.3s;
+
+}
+nav ul li a:hover{
+
+    color: #facc15;
+}
+section{
+    padding: 100px 20px 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0a auto;
+}
+.courses{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)) ;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.course{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0, 0.1);
+    text-align: center;
+    transform: tranform 0.3s ease ease-in-out;
+
+}
+.course:hover{
+    transform: translateY(-5px);
+
+}
+.course img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.course h3{
+    font-size: 1.2rem;
+    color: #1e40af;
+    margin-top: 10px;
+}
+.course p{
+    font-size: 1rem;
+    color: #475569;
+    
+}
+form{
+background: white;
+padding: 30px;
+max-width: 500px;
+margin: 20px auto;
+border-radius: 8px;
+box-shadow: 0px 4px 6px rgba(0, 0,0, 0.1);
+box-shadow: #1e40af;
+}
+input, select, textarea,button {
+    width: 100%;
+margin: 10px 0;
+padding: 12px;
+font-size: 1rem;
+border: 2px solid #e2e8f0;
+border-radius: 8px;
+outline: none;
+}
+button{
+    background: #1e40af;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+
+
+#hover:hover{
+    background-color: #04a126;
+}
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white;           /* White text color */
+    padding: 20px;          /* Padding around the content */
+    text-align: center;     /* Center align the text */
+    position: relative;     /* Ensures footer stays at the bottom */
+    bottom: 0;             
+    width: 100%;            
+}
+
+.footer-content p {
+    margin: 0;              /* Removes default margin */
+}
+
+ul.social-links {
+    list-style: none;       /* Removes list bullets */
+    padding: 0;
+}
+
+ul.social-links li {
+    display: inline-block;  /* Make links appear horizontally */
+    margin-right: 10px;     /* Space between links */
+}
+
+ul.social-links li a {
+    color: white;           /* White color for the links */
+    text-decoration: none;  /* Remove underline */
+}
+
+ul.social-links li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+#hover input{
+    box-shadow: h-offset v-offset blur spread color;
+}
+#hover {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #25d366; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; 
+}
+
+#hover:hover {
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); /* Darker and bigger shadow on hover */
+}
+
