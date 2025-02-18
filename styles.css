@@ -10,9 +10,8 @@
     height: 2%;
     background: fixed;
     background-attachment: fixed;
-    background-color: black;
-    background-size: cover;
-    
+   
+    align-content: center;
     max-height: 20%;
     
 
@@ -25,7 +24,7 @@
     background-color: black;
     background-size: cover;
     max-width: 50%;
-   
+   text-align: center;
     padding:0;
     margin: 0;
     
