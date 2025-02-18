@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LTO ACADEMY</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="IMG/images (6).jfif" type="image/x-icon">
     <link rel="import" href="https://fontawesome.com/icons/facebook?f=brands&s=solid">
 </head>
@@ -20,76 +21,27 @@
         </ul>
     </nav>
    </header>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slideshow</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  
+  
+   
+   <section id="Home">
+    <h2>Welcome to ABC Academy</h2>
+    <p>Providing quality education for better future.</p>
     <div class="slideshow-container">
         <div class="mySlides fade">
-            <img src="img1.jpg" style="width:100%">
+            <img src="PHOTOS/5.jpg" style="width:100%">
         </div>
 
         <div class="mySlides fade">
-            <img src="img2.jpg" style="width:100%">
+            <img src="PHOTOS/download (3).jpg" style="width:100% position: relative;">
         </div>
 
         <div class="mySlides fade">
-            <img src="img3.jpg" style="width:100%">
+            <img src="PHOTOS/download.jpg" style="width:100%">
         </div>
     </div>
 
     <script src="scripts.js"></script>
-</body>
-</html>
-CSS: Add styles for the slideshow.
-
-css
-/* styles.css */
-.slideshow-container {
-    position: relative;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.mySlides {
-    display: none;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-JavaScript: Add functionality to cycle through slides.
-javascript
-// scripts.js
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    let slides = document.getElementsByClassName("mySlides");
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {
-        slideIndex = 1
-    }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-   <section id="Home">
-    <h2>Welcome to ABC Academy</h2>
-    <p>Providing quality education for better future.</p>
    </section>
 
    <section id="Courses">

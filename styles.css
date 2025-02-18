@@ -1,0 +1,42 @@
+
+
+
+/* styles.css */
+.slideshow-container {
+    position: static;
+  width:100%;
+    margin:0;
+    padding: 0;
+    height: 2%;
+    background: fixed;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    
+    max-height: 20%;
+    
+
+}
+
+.mySlides {
+    display: none;
+    background: fixed;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    max-width: 50%;
+   
+    padding:0;
+    margin: 0;
+    
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
