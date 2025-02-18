@@ -1,41 +1,50 @@
+/* Reset and basic styling */
 
+  
 
-
-/* styles.css */
-.slideshow-container {
-    position: static;
-  width:100%;
-    margin:0;
-    padding: 0;
-    height: 2%;
-    background: fixed;
-    background-attachment: fixed;
-   
-    align-content: center;
-    max-height: 20%;
-    
-
-}
-
-.mySlides {
-    display: none;
-    background: fixed;
-    background-attachment: fixed;
-    background-color: black;
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Darken the background for better text visibility */
+    border-radius: 10px;
+  }
+  
+  .slide-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-size: cover;
-    max-width: 50%;
-   text-align: center;
-    padding:0;
-    margin: 0;
+    background-position: center;
     
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
+  }
+  
+  .fade {
+    opacity: 1;
+  }
+  
+  
