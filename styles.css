@@ -47,4 +47,18 @@
     opacity: 1;
   }
   
-  
+  #eee{
+    position: relative;
+    z-index: 1;
+  }
+  #fff{
+    #showcase {
+      width: 100%;
+      min-height: 650px;
+      background-color: #00000036;
+      background: url('../images/showcase.jpg') no-repeat 0 -450px;
+      background-attachment: fixed;
+      text-align: center;
+      color: #ffffff;
+  }
+  }

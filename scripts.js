@@ -16,7 +16,7 @@ function showSlides() {
   slides[slideIndex - 1].style.opacity = 1;
 
   // Call showSlides every 5 seconds
-  setTimeout(showSlides, 5000);
+  setTimeout(showSlides, 7000);
 }
 
 // Start the slideshow
